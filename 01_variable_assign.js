@@ -1,4 +1,4 @@
-var myFullName=
+var myFullName=// variable decleard
 console.log("-----Step :01------" );
 console.log(myFullName);
 myFullName="Kuldeep Nawale";
