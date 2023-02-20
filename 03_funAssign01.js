@@ -66,5 +66,5 @@ function addThreeValues (num1,num2,num3)
 var sumResult =addThreeValues(10.23,600,40)
 console.log("Addtion of first Three :",sumResult);
 
-var sumResult =addThreeValues("Hello","Good","Morning")
+var sumResult =addThreeValues("Hello  ","Good  ","Morning  ")
 console.log("Addtion of first Three :",sumResult);
