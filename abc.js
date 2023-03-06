@@ -60,3 +60,17 @@ var string = function (str){
   console.log(result);
 
 
+function reverse(str) {
+  let stored ="";
+  for (let index = str.length-1; index >=0 ; index--) {
+    let char=str.charAt(index)
+    
+   if (char==" ") {
+    break;
+   }
+   stored = stored +char;
+      }
+      return stored;
+}
+let resutl = reverse("hey are you");
+console.log(resutl);
