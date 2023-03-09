@@ -22,7 +22,7 @@ let student = {
      }
 };
 let resultAddress = student.addressDetails();
-console.log(resultAddress);
+console.log("-------",resultAddress);
 
 console.log(student.friends);
 console.log(student.friends[student.friends.length-1]);
