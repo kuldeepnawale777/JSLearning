@@ -44,8 +44,7 @@ console.log(`Log element from 1 to 4 ---${logElement}`);
 
 console.log("===================08=======================");
 
-let lastThreeElement =arraySeasonalFruits.slice(arraySeasonalFruits.length-3
-    );
+let lastThreeElement =arraySeasonalFruits.slice(arraySeasonalFruits.length-3);
 
 console.log(`Last three element  ---${lastThreeElement}`);
 

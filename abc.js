@@ -74,3 +74,28 @@ function reverse(str) {
 }
 let resutl = reverse("hey are you");
 console.log(resutl);
+
+
+
+var arrayTest=["kuldeep","nawale","pune","banglor"];
+console.log(arrayTest);
+
+var test=arrayTest.includes("kuldeep");
+console.log(test);
+
+var inexOf= arrayTest.indexOf("kuldeep");
+console.log(inexOf);
+
+var upd= arrayTest[0]=35;
+console.log(upd);
+
+console.log(arrayTest);
+
+//var del = arrayTest.splice(1,1)
+console.log(arrayTest);
+
+var arrayKuldeep=[0,1,2,3,4,5,6];
+console.log(arrayKuldeep);
+
+var testSlice = arrayKuldeep.splice(3,3);
+console.log(arrayKuldeep);
